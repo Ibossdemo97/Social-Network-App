@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EC772F062AD4EA2200BB5F76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F052AD4EA2200BB5F76 /* AppDelegate.swift */; };
 		EC772F082AD4EA2200BB5F76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F072AD4EA2200BB5F76 /* SceneDelegate.swift */; };
-		EC772F0A2AD4EA2200BB5F76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F092AD4EA2200BB5F76 /* ViewController.swift */; };
+		EC772F0A2AD4EA2200BB5F76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F092AD4EA2200BB5F76 /* HomeViewController.swift */; };
 		EC772F0D2AD4EA2200BB5F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC772F0B2AD4EA2200BB5F76 /* Main.storyboard */; };
 		EC772F102AD4EA2200BB5F76 /* Social_Network_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC772F0E2AD4EA2200BB5F76 /* Social_Network_App.xcdatamodeld */; };
 		EC772F122AD4EA2300BB5F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC772F112AD4EA2300BB5F76 /* Assets.xcassets */; };
 		EC772F152AD4EA2300BB5F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC772F132AD4EA2300BB5F76 /* LaunchScreen.storyboard */; };
+		EC772F232AD4EB8700BB5F76 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F222AD4EB8700BB5F76 /* ExploreViewController.swift */; };
+		EC772F252AD4EBA000BB5F76 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F242AD4EBA000BB5F76 /* CameraViewController.swift */; };
+		EC772F272AD4EBC600BB5F76 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F262AD4EBC600BB5F76 /* NotificationViewController.swift */; };
+		EC772F292AD4EBD400BB5F76 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F282AD4EBD400BB5F76 /* ProfileViewController.swift */; };
+		EC772F2F2AD4EE1900BB5F76 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F2E2AD4EE1900BB5F76 /* RegistrationViewController.swift */; };
+		EC772F312AD4EE2500BB5F76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F302AD4EE2500BB5F76 /* LoginViewController.swift */; };
+		EC772F342AD4EE5E00BB5F76 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F332AD4EE5E00BB5F76 /* PostViewController.swift */; };
+		EC772F362AD4EE8C00BB5F76 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F352AD4EE8C00BB5F76 /* EditProfileViewController.swift */; };
+		EC772F382AD4EE9900BB5F76 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F372AD4EE9900BB5F76 /* SettingViewController.swift */; };
+		EC772F3A2AD4EEA300BB5F76 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F392AD4EEA300BB5F76 /* ListViewController.swift */; };
+		EC772F3C2AD4EEB700BB5F76 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F3B2AD4EEB700BB5F76 /* SearchViewController.swift */; };
+		EC772F3E2AD4EECF00BB5F76 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F3D2AD4EECF00BB5F76 /* SearchResultViewController.swift */; };
+		EC772F402AD4EEFB00BB5F76 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F3F2AD4EEFB00BB5F76 /* PostEditorViewController.swift */; };
+		EC772F422AD4EF1600BB5F76 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772F412AD4EF1600BB5F76 /* PublishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC772F022AD4EA2200BB5F76 /* Social Network App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Network App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC772F052AD4EA2200BB5F76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC772F072AD4EA2200BB5F76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC772F092AD4EA2200BB5F76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC772F092AD4EA2200BB5F76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EC772F0C2AD4EA2200BB5F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC772F0F2AD4EA2200BB5F76 /* Social_Network_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Network_App.xcdatamodel; sourceTree = "<group>"; };
 		EC772F112AD4EA2300BB5F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC772F142AD4EA2300BB5F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC772F162AD4EA2300BB5F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC772F222AD4EB8700BB5F76 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		EC772F242AD4EBA000BB5F76 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		EC772F262AD4EBC600BB5F76 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EC772F282AD4EBD400BB5F76 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EC772F2E2AD4EE1900BB5F76 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		EC772F302AD4EE2500BB5F76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC772F332AD4EE5E00BB5F76 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EC772F352AD4EE8C00BB5F76 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		EC772F372AD4EE9900BB5F76 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EC772F392AD4EEA300BB5F76 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EC772F3B2AD4EEB700BB5F76 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EC772F3D2AD4EECF00BB5F76 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		EC772F3F2AD4EEFB00BB5F76 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		EC772F412AD4EF1600BB5F76 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +86,94 @@
 		EC772F042AD4EA2200BB5F76 /* Social Network App */ = {
 			isa = PBXGroup;
 			children = (
+				EC772F1F2AD4EAB200BB5F76 /* Resoures */,
 				EC772F052AD4EA2200BB5F76 /* AppDelegate.swift */,
 				EC772F072AD4EA2200BB5F76 /* SceneDelegate.swift */,
-				EC772F092AD4EA2200BB5F76 /* ViewController.swift */,
-				EC772F0B2AD4EA2200BB5F76 /* Main.storyboard */,
+				EC772F1C2AD4EA9A00BB5F76 /* Controller */,
+				EC772F1E2AD4EAA800BB5F76 /* Models */,
+				EC772F1D2AD4EAA200BB5F76 /* View */,
 				EC772F112AD4EA2300BB5F76 /* Assets.xcassets */,
-				EC772F132AD4EA2300BB5F76 /* LaunchScreen.storyboard */,
 				EC772F162AD4EA2300BB5F76 /* Info.plist */,
 				EC772F0E2AD4EA2200BB5F76 /* Social_Network_App.xcdatamodeld */,
 			);
 			path = "Social Network App";
+			sourceTree = "<group>";
+		};
+		EC772F1C2AD4EA9A00BB5F76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F2B2AD4EDDB00BB5F76 /* Orther */,
+				EC772F2A2AD4EBE400BB5F76 /* Core */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC772F1D2AD4EAA200BB5F76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F212AD4EB1A00BB5F76 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC772F1E2AD4EAA800BB5F76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC772F1F2AD4EAB200BB5F76 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		EC772F212AD4EB1A00BB5F76 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F0B2AD4EA2200BB5F76 /* Main.storyboard */,
+				EC772F132AD4EA2300BB5F76 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EC772F2A2AD4EBE400BB5F76 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F092AD4EA2200BB5F76 /* HomeViewController.swift */,
+				EC772F222AD4EB8700BB5F76 /* ExploreViewController.swift */,
+				EC772F242AD4EBA000BB5F76 /* CameraViewController.swift */,
+				EC772F262AD4EBC600BB5F76 /* NotificationViewController.swift */,
+				EC772F282AD4EBD400BB5F76 /* ProfileViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EC772F2B2AD4EDDB00BB5F76 /* Orther */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F332AD4EE5E00BB5F76 /* PostViewController.swift */,
+				EC772F352AD4EE8C00BB5F76 /* EditProfileViewController.swift */,
+				EC772F392AD4EEA300BB5F76 /* ListViewController.swift */,
+				EC772F372AD4EE9900BB5F76 /* SettingViewController.swift */,
+				EC772F3B2AD4EEB700BB5F76 /* SearchViewController.swift */,
+				EC772F3D2AD4EECF00BB5F76 /* SearchResultViewController.swift */,
+				EC772F3F2AD4EEFB00BB5F76 /* PostEditorViewController.swift */,
+				EC772F412AD4EF1600BB5F76 /* PublishPostViewController.swift */,
+				EC772F322AD4EE2C00BB5F76 /* Onboarding */,
+			);
+			path = Orther;
+			sourceTree = "<group>";
+		};
+		EC772F322AD4EE2C00BB5F76 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EC772F302AD4EE2500BB5F76 /* LoginViewController.swift */,
+				EC772F2E2AD4EE1900BB5F76 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +212,7 @@
 				};
 			};
 			buildConfigurationList = EC772EFD2AD4EA2200BB5F76 /* Build configuration list for PBXProject "Social Network App" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,10 +247,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC772F0A2AD4EA2200BB5F76 /* ViewController.swift in Sources */,
+				EC772F3C2AD4EEB700BB5F76 /* SearchViewController.swift in Sources */,
+				EC772F0A2AD4EA2200BB5F76 /* HomeViewController.swift in Sources */,
 				EC772F062AD4EA2200BB5F76 /* AppDelegate.swift in Sources */,
+				EC772F232AD4EB8700BB5F76 /* ExploreViewController.swift in Sources */,
+				EC772F402AD4EEFB00BB5F76 /* PostEditorViewController.swift in Sources */,
+				EC772F382AD4EE9900BB5F76 /* SettingViewController.swift in Sources */,
+				EC772F2F2AD4EE1900BB5F76 /* RegistrationViewController.swift in Sources */,
+				EC772F272AD4EBC600BB5F76 /* NotificationViewController.swift in Sources */,
+				EC772F3A2AD4EEA300BB5F76 /* ListViewController.swift in Sources */,
 				EC772F082AD4EA2200BB5F76 /* SceneDelegate.swift in Sources */,
+				EC772F422AD4EF1600BB5F76 /* PublishPostViewController.swift in Sources */,
 				EC772F102AD4EA2200BB5F76 /* Social_Network_App.xcdatamodeld in Sources */,
+				EC772F292AD4EBD400BB5F76 /* ProfileViewController.swift in Sources */,
+				EC772F362AD4EE8C00BB5F76 /* EditProfileViewController.swift in Sources */,
+				EC772F312AD4EE2500BB5F76 /* LoginViewController.swift in Sources */,
+				EC772F252AD4EBA000BB5F76 /* CameraViewController.swift in Sources */,
+				EC772F3E2AD4EECF00BB5F76 /* SearchResultViewController.swift in Sources */,
+				EC772F342AD4EE5E00BB5F76 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +418,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +446,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
